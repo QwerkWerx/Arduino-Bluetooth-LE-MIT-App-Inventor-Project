@@ -1,0 +1,23 @@
+The schematic can be found Here
+
+Conections for the Arduino code
+BT- HC08 connections
+  VCC-5V-From Reg.
+  GND-From Reg.
+  TX - D10 Arduino
+  RX - D9 Arduino
+Nano
+  D10 - TX BLE
+  D9 - RX BLE
+  VCC-5V-From Reg.
+  GND-From Reg.
+  D4 - Relay Signal
+Relay
+  GND-From Reg.
+  VCC-5V-From Reg.
+  S (Signal)- D4 Arduino
+  NO/NC- Load
+Regulator 
+  IN-12V In from supply
+  GND- Common ground throughout the entire project
+  OUT-5V out to components
